@@ -1,6 +1,10 @@
 # Harp-Bootstrap Starter
 A rapid prototyping tool using Harp.js and Twitter Bootstrap.
 
+Harp.js can be a really cool tool for rapid prototyping, or simply some wireframing. That's how I use it at least.
+
+This is a tool I built for myself so I can easily make wireframes for clients.
+
 ## Requirements
 
 Assuming you have NPM (Node Package Manager) on your machine, just run:
