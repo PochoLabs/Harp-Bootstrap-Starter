@@ -4,9 +4,9 @@ html(lang="en")
 		title Harp Bootstrap
 		link(rel="stylesheet" href="/css/animate.min.css")
 		link(rel="stylesheet" href="style.css")
-		//- link(rel="stylesheet", href="_sass/_bootstrap.scss")
 		meta(name="viewport", content="width=device-width, initial-scale=1")
 	body
+		!= partial("_partials/layout/header.jade")
 		!= yield
 
 		script(src="js/jquery-2.1.4.js")
