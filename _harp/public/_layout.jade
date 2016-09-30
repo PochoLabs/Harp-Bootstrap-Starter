@@ -1,0 +1,184 @@
+doctype html
+html
+	head
+		title Ileana & Celso
+		meta(charset='utf-8')
+		meta(name='viewport', content='width=device-width, initial-scale=1, user-scalable=no')
+		//if lte IE 8
+			script(src='assets/js/ie/html5shiv.js')
+		link(rel='stylesheet', href='assets/css/main.css')
+		//if lte IE 9
+			link(rel='stylesheet', href='assets/css/ie9.css')
+		//if lte IE 8
+			link(rel='stylesheet', href='assets/css/ie8.css')
+
+			meta(property='og:title', content='Ileana Y Celso')
+			meta(property='og:image', content='http://ileanaycelso.com/images/banner.jpg')
+			meta(property='og:site_name', content='IleanaYCelso.com')
+			meta(property='og:description', content="Dreamer brought together by music and the migrant justice movement")
+			link(rel='apple-touch-icon', sizes='180x180', href='/apple-touch-icon.png')
+			link(rel='icon', type='image/png', href='/favicon-32x32.png', sizes='32x32')
+			link(rel='icon', type='image/png', href='/favicon-16x16.png', sizes='16x16')
+			link(rel='manifest', href='/manifest.json')
+			link(rel='mask-icon', href='/safari-pinned-tab.svg', color='#5bbad5')
+			meta(name='theme-color', content='#ffffff')
+
+	body
+		// Wrapper
+		#wrapper
+			// Header
+			header#header.alt
+				a.logo(href='#banner')
+					strong Ileana
+					span &amp;
+					strong Celso
+				nav
+					a(href='#menu') Menu
+			// Menu
+			nav#menu
+				ul.links
+					li
+						a.scrolly(href='#banner') Home
+					li
+						a.scrolly(href='#main') Our Work 
+					li
+						a.scrolly(href='#about') About
+
+				ul.actions.vertical
+					li
+						a.button.special.fit.scrolly(href='#contact') Contact Us 
+			// Banner
+			section#banner.major
+				.inner
+					header.major
+						h1 Singing songs of inspiration and social justice
+					.content
+						p
+							| DREAMers brought together by music and
+							br
+							| 								the migrant justice movement.
+						ul.actions
+							li
+								a.button.next.scrolly(href='#one') Learn More
+			// Main
+			#main
+				// One
+				section#one.tiles
+					article
+						span.image
+							img(src='images/pic01.jpg', alt='')
+						header.major
+							h3
+								p.link(href='#') Cafe Cultura
+					article
+						span.image
+							img(src='images/pic02.jpg', alt='')
+						header.major
+							h3
+								p.link(href='#') At ALAC
+							p Arizona Latino Arts and Cultural Center
+					article
+						span.image
+							img(src='images/pic03.jpg', alt='')
+						header.major
+							h3
+								p.link(href='#') Civic Engagemen Event
+					article
+						span.image
+							img(src='images/pic04.jpg', alt='')
+						header.major
+							h3
+								p.link(href='#') Quincea&ntilde;era
+					article
+						span.image
+							img(src='images/pic05.jpg', alt='')
+						header.major
+							h3
+								p.link(href='#') Our Wedding
+					article
+						span.image
+							img(src='images/pic06.jpg', alt='')
+						header.major
+							h3
+								p.link(href='#') United We Dream Congress
+
+				// Two
+				section#about
+					.inner
+						header.major
+							h2 About Us
+							p Celso and Ileana are a DACAmented immigrant couple living in Arizona. They have been involved in the U.S. migrant justice movement for almost a decade. They met in 2008 at Arizona State University during a youth group meeting after the administration of the university had announced that, because of the passage of the anti-immigrant law Proposition 300, their merit scholarship was being taken away. During that meeting, this group of undocumented students decided to unite to fundraise for their scholarship, complete community service hours, and take action to fight for their own rights. 
+							br
+							p The group decided to call themselves the Arizona DREAM Act Coalition (ADAC). One of their first projects was to make a video to share their stories with the public, and promote the DREAM Act. The student directors of the video requested Celso to play the guitar and for Ileana to sing to create a song to go with the video. That is when Celso and Ileana started working together creating and sharing music for their cause.
+							br
+							p In 2009, Ileana was racially profiled. Despite not having committed any crime, Ileana was arrested, taken to jail, and put into deportation proceedings. This was a painful awakening for Ileana to the vulnerability of immigrants to be criminalized and separated from their families. Inside that jail cell Ileana made the commitment to dedicate herself to social justice so that other people wouldn’t go through what she went through. 
+							br
+							p In 2010, Celso and Ileana participated with pro-immigrant organizations organizing events against SB1070. They marched, and provided music at vigils, rallies, and gatherings. At the end of 2010, when the DREAM Act was put up for a vote for the last time, Celso was part of a group of activists who fasted for 9 days outside of Senator McCain's office to pressure congress to vote “yes” for the DREAM Act. Unfortunately the Senate failed to pass the DREAM Act. 
+							br
+							p This was a big hit for the DREAM movement, however, Celso and Ileana decided to continue their work, attending national gatherings, and supporting local actions. In 2012 they supported the campaign that led to President Obama announcing the Deferred Action for Childhood Arrivals (DACA) executive program. Through that program Celso and Ileana were part of the thousands of DREAMers who now have work authorization, and deportation protection. 
+							br
+							p In the summer of 2015, after 5 years in a relationship, graduating from ASU, moving and supporting migrants rights efforts in Houston, TX, and returning to Phoenix, Ileana and Celso decided to get married in Phoenix Arizona, at the Unitarian Universalist Congregation of Phoenix. They have realized their mission and role in the movement is bringing songs of social justice and empowerment with the goal to inspire people in all walks of life to become agents of change in their communities.
+
+						ul.actions
+							li
+								a.button.next(href='#contact') Contact Us
+			// Contact
+			section#contact
+				.inner
+					section
+						form(method='post', action='//formspree.io/ileanacelso@gmail.com')
+							.field.half.first
+								label(for='name') Name
+								input#name(type='text', name='name')
+							.field.half
+								label(for='email') Email
+								input#email(type='text', name='email')
+							.field
+								label(for='message') Message
+								textarea#message(name='message', rows='6')
+							ul.actions
+								li
+									input.special(type='submit', value='Send Message')
+								li
+									input(type='reset', value='Clear')
+					section.split
+						section
+							.contact-method
+								span.icon.alt.fa-envelope
+								h3 Email
+								a(href='mailto:ileanacelso@gmail.com') ileanacelso@gmail.com
+						section
+							.contact-method
+								span.icon.alt.fa-phone
+								h3 Phone
+								span (602) 423-9066
+						section
+							.contact-method
+								span.icon.alt.fa-instagram
+								h3 Instagram
+								a(href="http://instagram.com/ileanaycelso") @ileanaycelso
+			// Footer
+			footer#footer
+				.inner
+					//- ul.icons
+					//- 	li
+					//- 		a.icon.alt.fa-instagram(href='http://instagram.com/ileanaycelso')
+					//- 			span.label Instagram
+					ul.copyright
+						li © 2014
+						li
+							| Design: 
+							a(href="https://html5up.net") HTML5 UP
+						li
+							| Made with &hearts; by: 
+							a(href="http://pocholabs.com") PochoLabs
+
+		// Scripts
+		script(src='assets/js/jquery.min.js')
+		script(src='assets/js/jquery.scrolly.min.js')
+		script(src='assets/js/jquery.scrollex.min.js')
+		script(src='assets/js/skel.min.js')
+		script(src='assets/js/util.js')
+		//if lte IE 8
+			script(src='assets/js/ie/respond.min.js')
+		script(src='assets/js/main.js')
