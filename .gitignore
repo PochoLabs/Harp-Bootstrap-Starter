@@ -6,3 +6,4 @@ www/**
 node_modules
 bower
 source/bower
+harp/public/media

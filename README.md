@@ -7,33 +7,43 @@ This is a tool I built for myself so I can easily make wireframes for clients.
 
 ## Requirements
 
-Assuming you have NPM (Node Package Manager) on your machine, just run:
+This project recommends using Yarn:
+
 ```
-sudo npm install -g harp
+yarn
 ```
-If command is not working visit [their site](http://harpjs.com) for complete instructions.
+This will install all NPM packages. Alternatively, you can use:
+```
+npm install
+```
+
+
 ## How To Use
+
+```
+yarn start
+```
 
 ### For Rapid Protopyping
 
 First clone the repository to your working directory
 ```
-git clone https://github.com/celsom3/Harp-Bootstrap-Starter.git
+git clone https://github.com/PochoLabs/Harp-Bootstrap-Starter.git
 ```
 Move into that directory
 ```
 cd Harp-Bootstrap-Starter
 ```
-Since you already have Harp.js installed, just run:
+If you already the packages installed, run:
 ```
-harp server
+yarn start
 ```
 
 ### Compiling
 
 Once your are done, you might like to use the compiled files for whatever reasons (WordPress theme, Drupal theme, Meteor, Static Site server, etc). To get that output simply run the command:
 ```
-harp compile
+yarn run compile
 ```
 This will generate a `/www` folder in your directory where the compile and minified html, css, and JavaScript will be.
 
