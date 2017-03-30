@@ -24,6 +24,8 @@ npm install
 yarn start
 ```
 
+You can now visit your browser at `http://localhost:3001/` to see your live reloading setup.
+
 ### For Rapid Protopyping
 
 First clone the repository to your working directory
